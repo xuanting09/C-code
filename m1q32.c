@@ -2,7 +2,6 @@
 
 int main() {
     int price;
-    printf("請輸入價格（1-1000）：");
     scanf("%d", &price);
 
     int thousand = price / 1000;
